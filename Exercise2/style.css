@@ -1,0 +1,36 @@
+body{
+  background-color: white;
+}
+.menu_container{
+  display: flex;
+  padding:10px;
+  width: auto;
+  background-color:black;
+  color:gray;
+}
+
+.menu_item{
+ flex: 1;
+}
+.main_container{
+  background-color: gray;
+  width:960px;
+  height:auto;
+  margin-left: 17%;
+}
+.session1{
+  display: flex;
+  flex-direction: row column;
+  flex-wrap:wrap;
+}
+.session2{
+  display:flex;
+  flex-direction: row column;
+  
+  margin-left: 20%;
+  
+}
+img{
+ height: 200px;
+}
+
